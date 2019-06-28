@@ -1,0 +1,7 @@
+video {
+    display: block;
+    border: 1px solid black;
+    width: 95%;
+    height: 650px;
+    margin: 0 auto;
+}

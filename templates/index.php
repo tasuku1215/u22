@@ -5,12 +5,7 @@
     <meta charset="utf-8">
     <meta name="author" content="">
     <title></title>
-    <style>
-        video {
-            border: 1px solid black;
-            width: 95%;
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" href="./css/design.css">
 </head>
 
 <body>
@@ -23,11 +18,8 @@
     var video = document.getElementById("video");
     // getUserMedia によるカメラ映像の取得
     var media = navigator.mediaDevices.getUserMedia({
-        video: true, //ビデオを取得する
-        //使うカメラをインカメラか背面カメラかを指定する場合には
-        //video: { facingMode: "environment" },//背面カメラ
-        //video: { facingMode: "user" },//インカメラ
-        audio: false, //音声が必要な場合はture
+        video: true,
+        audio: false,
     });
     //リアルタイムに再生（ストリーミング）させるためにビデオタグに流し込む
     media.then((stream) => {
