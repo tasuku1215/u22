@@ -10,8 +10,13 @@
 
 <body>
     <h1>templates/index</h1>
-    <video id="video" autoplay></video>
-    <h2>PCのカメラをjsで起動する方法がわからんw</h2>
+    <article id="video_art">
+        <video id="video" autoplay></video>
+    </article>
+    <article id="button_art">
+        <button id="analysis">解析</button>
+        <button id="play">再生</button>
+    </article>
 </body>
 <script>
     //動画流す準備
