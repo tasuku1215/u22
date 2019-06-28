@@ -1,15 +1,31 @@
+body {
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+}
+
 video {
     display: block;
     border: 1px solid black;
     width: 95%;
     height: 650px;
     margin: 0 auto;
+    border-radius: 5px;
 }
 
 #button_art {
-    width: 40%;
+    width: 50vw;
     margin: 0 auto;
     margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    /*flexアイテムを中央ぞろえ*/
+    justify-content: space-between;
+    /*flexアイテムを等間隔に*/
+    align-content: space-around;
 }
 
 button {
