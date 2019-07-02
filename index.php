@@ -9,6 +9,6 @@
         <a href="public/index.php">public/index.php</a>
     </li>
     <li>
-        <a href="public/index.php">public/upload.php</a>
+        <a href="public/upload.php">public/upload.php</a>
     </li>
 </ul>
