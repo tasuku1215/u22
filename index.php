@@ -4,4 +4,11 @@
 
 //header("Location: ./public/index.php");
 ?>
-<a href="public/index.php">public/index.php</a>
+<ul>
+    <li>
+        <a href="public/index.php">public/index.php</a>
+    </li>
+    <li>
+        <a href="public/index.php">public/upload.php</a>
+    </li>
+</ul>
