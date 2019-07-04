@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="author" content="">
     <title></title>
-    <link rel="stylesheet" type="text/css" href="./../public/js/jquery-3.3.1.min.js">
+    <link rel="stylesheet" type="text/css" href="./../css/">
     <style>
         canvas {
             display: none;
@@ -35,7 +35,7 @@
     <video id="camera" width="300px" autoplay></video>
 
     <!-- 記録用canvas -->
-    <canvas id="canvas"></canvas>
+    <canvas id="myCanvas"></canvas>
 
     <!-- 記録用img -->
     <img id="img">
@@ -45,31 +45,6 @@
 
     <!-- 撮影トリガー 2-->
     <input type="button" value="REC" onclick="take_picture()">
-
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-    <script>
-        $(document).ready(function() {
-            $('.contents').hide();
-            $('.more').on('click', function() {
-                if (!$('.contents').hasClass('open')) {
-                    $('.contents').slideDown('').addClass('open');
-                    $('.more').text('Close');
-                } else {
-                    $('.contents').slideUp().removeClass('open');
-                    $('.more').text('Choose');
-                }
-            });
-        });
-    </script>
-    <p>表示しておくコンテンツ</p>
-    <div class="contents">
-        <img src="./../img/真顔.png" alt="">
-        <img src="./../img/笑顔.png" alt="">
-        <img src="./../img/怒り.png" alt="">
-        <img src="./../img/泣顔.png" alt="">
-        <img src="./../img/イタズラ顔.png" alt="">
-    </div>
-    <a class="more" href="#">Choose</a>
 </body>
 
 <script>
@@ -100,7 +75,7 @@
     //撮影関数
     function take_picture() {
         //videoのstreamをcanvasに書き出す方法
-        var canvas = document.getElementById('canvas');
+        var canvas = document.getElementById('myCanvas');
         var ctx = canvas.getContext('2d');
         //videoの縦幅横幅を取得
         var w = video.offsetWidth;

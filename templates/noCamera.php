@@ -17,17 +17,13 @@
     <article>
         <h2>表情たち！</h2>
         <section id="flex">
-            <img src="./../img/真顔.png" alt="">
-            <img src="./../img/笑顔.png" alt="">
-            <img src="./../img/怒り.png" alt="">
-            <img src="./../img/泣顔.png" alt="">
-            <img src="./../img/イタズラ顔.png" alt="">
+            <img src="./../img/真顔.png" alt="" id="neutral">
+            <img src="./../img/笑顔.png" alt="" id="happy">
+            <img src="./../img/怒り.png" alt="" id="anger">
+            <img src="./../img/泣顔.png" alt="" id="sad">
+            <img src="./../img/イタズラ顔.png" alt="" id="funny">
         </section>
     </article>
 </body>
-
-<script>
-
-</script>
 
 </html>
