@@ -1,0 +1,40 @@
+body {
+    box-sizing: border-box;
+}
+
+header {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36pt;
+    line-height: 150px;
+}
+
+h2 {
+    display: none;
+}
+
+article {
+    width: 75%;
+    margin: auto;
+    margin-top: 80px;
+}
+
+#flex {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+
+#flex img {
+    width: 15%;
+    text-align: center;
+    margin: auto;
+    cursor: pointer;
+}
