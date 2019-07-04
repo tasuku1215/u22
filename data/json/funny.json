@@ -1,0 +1,14 @@
+[{
+    "faceAttributes": {
+        "emotion": {
+            "anger": 0,
+            "contempt": 0,
+            "disgust": 0.25,
+            "fear": 0,
+            "happiness": 0.25,
+            "neutral": 0.25,
+            "sadness": 0,
+            "surprise": 0.25
+        }
+    }
+}]
