@@ -1,0 +1,22 @@
+h1 {
+    background-color: black;
+    color: lightgray;
+    padding-left: 140px;
+}
+body {
+    background-image: url("./../../img/background.jpg");
+}
+#drag-drop-area {
+    margin: auto;
+    text-align: center;
+    padding-top:0px;
+    width:1000px;
+    height:400px;
+    background-color: rgba(255,255,255,0.5);
+}
+.drag-drop-inside{
+    margin:auto;
+    padding-top:100px;
+    width:600px;
+    height:300px;
+}

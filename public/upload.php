@@ -1,9 +1,31 @@
-<form action="" method="post" enctype="multipart/form-data">
-    Send these files:<br/>
-    <input type="file" name="upfile[]" multiple><br/>
-    <!--        <input type="file" name="upfile[]"/><br/>-->
-    <input type="submit" value="Send files"/>
-</form>
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>UPLOAD</title>
+        <link rel="stylesheet" type="text/css" href="./css/upload.css">
+        <script src="../public/js/jquery-3.3.1.min.js"></script>
+        <script src="../public/js/upload.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>UPLOAD</h1>
+        </header>
+
+        <form action="" method="post" enctype="multipart/form-data">
+            <div id="drag-drop-area">
+                <div class="drag-drop-inside">
+                    <p class="drag-drop-info">Drop file</p>
+                    <p>or</p>
+                        Send these files:
+                        <input id="fileInput" type="file" name="upfile[]" multiple><br/><br/>
+                        <!--        <input type="file" name="upfile[]"/><br/>-->
+                        <input type="submit" value="Send files"/>
+                </div>
+            </div>
+        </form>
+    </body>
+<html>
 <?php
 if (!empty($_FILES)) {
     for ($i = 0; $i < count($_FILES["upfile"]["tmp_name"]); $i++) {
