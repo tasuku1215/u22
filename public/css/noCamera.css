@@ -1,3 +1,9 @@
+@font-face {
+    font-family: 'honoka';
+    src: url("./font/honokamarugo.ttf");
+}
+
+
 body {
     box-sizing: border-box;
 }
@@ -9,6 +15,7 @@ header {
 }
 
 h1 {
+    font-family: 'honoka';
     font-size: 36pt;
     line-height: 150px;
 }
