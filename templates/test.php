@@ -6,6 +6,7 @@
     <meta name="author" content="">
     <title></title>
     <link rel="stylesheet" type="text/css" href="./../css/">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
     <style>
         canvas {
             display: none;
