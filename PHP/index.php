@@ -14,7 +14,6 @@
     <li>
         <a href="public/test.php">public/test.php</a>
     </li>
-    </li>
     <li>
         <a href="public/noCamera.php">public/noCamera.php</a>
     </li>
